@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM_Application_TestSuite]">
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="frameworklibrary.DriverScript"/>
+  </listeners>
+  <test name="chromeTest(failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="testscripts.Module2">
+        <methods>
+          <include name="TC02_addEmergnecyDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testscripts.Module2 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [HRM_Application_TestSuite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="A4T_Application_TestSuite">	
+
+<listeners>
+<listener class-name="frameworklibrary.DriverScript"></listener>
+</listeners>
+   
+  <test name="chromeTest">
+  <parameter name="browserType" value="chrome"></parameter>
+    <classes>
+      <class name="testscripts.Module1"/>
+      <class name="testscripts.Module2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

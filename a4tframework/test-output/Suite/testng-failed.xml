@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testngpart4.ListImp"/>
+  </listeners>
+  <test name="ChromeTest(failed)">
+    <classes>
+      <class name="testngpart4.MyTest2">
+        <methods>
+          <include name="f2"/>
+          <include name="f4"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- testngpart4.MyTest2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

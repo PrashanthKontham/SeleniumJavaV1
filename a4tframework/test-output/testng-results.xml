@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-07T04:15:38Z" name="HRM_Application_TestSuite" finished-at="2019-03-07T04:17:03Z" duration-ms="85546">
+    <groups>
+    </groups>
+    <test started-at="2019-03-07T04:15:38Z" name="chromeTest" finished-at="2019-03-07T04:17:03Z" duration-ms="85546">
+      <class name="testscripts.Module1">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:testscripts.Module1@73173f63]" started-at="2019-03-07T09:45:38Z" name="beforeSuit" finished-at="2019-03-07T09:45:38Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testscripts.Module1@73173f63]" started-at="2019-03-07T09:45:38Z" name="beforeTest" finished-at="2019-03-07T09:45:42Z" duration-ms="4040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testscripts.Module1@73173f63]" started-at="2019-03-07T09:47:03Z" name="afterTest" finished-at="2019-03-07T09:47:03Z" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testscripts.Module1 -->
+      <class name="testscripts.Module2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testscripts.Module2@3569fc08]" started-at="2019-03-07T09:46:15Z" name="beforeMethod" finished-at="2019-03-07T09:46:16Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC02_addEmergnecyDetails(java.util.List)[pri:0, instance:testscripts.Module2@3569fc08]" started-at="2019-03-07T09:46:16Z" name="TC02_addEmergnecyDetails" description="This TC will add EmergencyContact" finished-at="2019-03-07T09:47:03Z" duration-ms="46750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{HTelPhone=123456789, WTelNumb=147258369, Position=0, Reletionship=Father, Mobile=987654321, Name=Test1}, {HTelPhone=123456788, WTelNumb=147258368, Position=0, Reletionship=Mother, Mobile=987654322, Name=Test2}, {HTelPhone=123456787, WTelNumb=147258367, Position=0, Reletionship=Spouce, Mobile=987654323, Name=Test3}, {HTelPhone=123456786, WTelNumb=147258368, Position=0, Reletionship=Kids, Mobile=987654324, Name=Test4}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_addEmergnecyDetails -->
+      </class> <!-- testscripts.Module2 -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- HRM_Application_TestSuite -->
+</testng-results>
